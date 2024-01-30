@@ -11,5 +11,5 @@ chat_id='927181585'
 
 @app.route('/')
 def hello_world():
-    bot.send_message(chat_id=chat_id, text='Hello World!!!')
+    bot.send_message(chat_id , 'Hello World!!!')
     return 'Hello World!!'
