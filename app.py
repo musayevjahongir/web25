@@ -13,3 +13,5 @@ chat_id='927181585'
 def hello_world():
     bot.send_message(chat_id , 'Hello World!!!')
     return 'Hello World!!'
+if __name__=="__main__":
+    app.run(debug=True)
